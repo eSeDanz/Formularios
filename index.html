@@ -10,20 +10,31 @@
 </head>
 <body>
     <section>
-        <form action="web.php" method="GET">
+        <form action="web.php" method="get">
         <h2>Accede a tu Área Clientes</h2>
-        <h3>Elige tu documento</h3>
-        <p><input type="radio" name="DNI" id="DNI" value="1">DNI o Tarjeta de residencia</p>  
-        <p><input type="radio" name="DNI" id="pasaporte" value="2">Pasaporte</p>       
-        <p>Número de documento</p>
-        <input class="uwu" type="text" placeholder="DNI o Tarjeta de residencia">
-        <p>Fecha de Nacimiento</p>
-        <input class="uwu" type="date">
+        <legend><h3>Elige tu documento</h3></legend>
+        <p><input type="radio" name="DNIpas" id="DNI" value="1">DNI o Tarjeta de residencia</p>  
+        <p><input type="radio" name="DNIpas" id="pasaporte" value="2">Pasaporte</p>       
+        <legend><p>Número de documento</p></legend>
+        <input class="recuadro" type="text" placeholder="DNI o Tarjeta de residencia">
+        <legend><p>Fecha de Nacimiento</p></legend>
+        <input class="recuadro" type="date">
         <br><br> 
         <p><input type="checkbox">Recordar</p> 
-        <input class="uwus" type="submit" value="Entrar">
+        <input class="naranja" type="submit" value="Entrar">
+        <a href="">Acceder con DNI electrónico</a>
+        <a href="">Más información sobre seguridad</a>
         </form>
     </section>
     <hr>
+    <section>
+        <form action="web.php" method="get">
+        <legend><h2>Empieza creando tu usuario</h2></legend>
+        <input class="recuadro2" type="text" placeholder="Nombre (como sale en el DNI)">
+        <input class="recuadro501" type="text" placeholder="1º apellido (como sale en el DNI)">
+        <input class="recuadro502" type="text" placeholder="2º apellido (como sale en el DNI)">
+        <select></select>
+        </form>
+    </section>
 </body>
 </html>

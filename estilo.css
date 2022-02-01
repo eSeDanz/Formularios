@@ -6,15 +6,45 @@ form {
     margin: 20%;
     text-align: left;
 }
-.uwu{
+.recuadro {
     width: 400px;
     height: 20px;
 }
-.uwus{
-    width: 420px;
-    height: 40px;
+.naranja {
+    width: 400px;
+    height: 50px;
     font-size: larger;
     font-weight: bold;
     color: white;
     background-color: orange;
+}
+
+a {
+    display: block;
+    margin: 15px;
+}
+
+.recuadro2 {
+    width: 97%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.recuadro501 {
+    float: left;
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.recuadro502 {
+    float: right;
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
